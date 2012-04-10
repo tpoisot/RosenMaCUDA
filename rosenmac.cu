@@ -9,9 +9,9 @@
 #define K       1.0
 #define ALPHA   1.0
 #define BETA    5.0
-#define M       0.2
+#define M       0.1
 #define DN      0.0
-#define DP      0.05
+#define DP      0.5
 
 __global__ void rosmac(float *n0, float *n1, float *p0, float *p1)
 {

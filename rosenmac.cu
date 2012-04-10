@@ -3,14 +3,14 @@
 
 #define BLOCKS  size
 #define THREADS 1
-#define T       10000
+#define T       100000
 #define H       0.01
 #define R       1.0
-#define K       1.0
-#define ALPHA   1.0
-#define BETA    5.0
-#define M       0.1
-#define DN      0.0
+#define K       2.0
+#define ALPHA   9.96
+#define BETA    1.0
+#define M       0.28
+#define DN      0.5
 #define DP      0.5
 
 __global__ void rosmac(float *n0, float *n1, float *p0, float *p1)
